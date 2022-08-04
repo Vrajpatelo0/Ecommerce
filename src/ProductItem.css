@@ -1,0 +1,42 @@
+div.gallery {
+    margin: 56px;
+    border: 1px solid rgb(89, 89, 90);
+    border-radius: 29px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 450px;
+
+  }
+  
+  /* div.gallery:hover {
+    border: 1px solid rgb(230, 228, 228);
+  }
+   */
+  div.gallery img {
+    width: 200px;
+    height: 171px;
+    border-radius: 29px;
+  }
+  div.gallery p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+  }
+  div.desc {
+
+    padding: 15px;
+    text-align: justify;
+  }
+  .button {
+    background-color: #626462;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
